@@ -1,0 +1,15 @@
+body {font-family: Arial, sans-serif;}
+.preview {display: none;
+          position: absolute; /* position là định vị, vị trí của phần tử */
+          width: 200px;
+          border: 2px solid #ccc;
+          border-radius: 8px;
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+          background-color: white;
+          padding: 5px;}
+		  .link-container
+          {position: relative;
+          display: inline-block;}
+		  .link-container:hover
+		  .preview{display: block;}
+            
