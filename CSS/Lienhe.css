@@ -1,0 +1,30 @@
+		/* Icon di chuyển */	
+#santa {
+    position: absolute;
+    font-size: 2.5em;
+    animation: moveSanta 15s linear infinite;
+    top: 100%;
+}
+
+@keyframes moveSanta {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 95%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+		/* Icon liên hệ */
+.icon-img {width: 40px;
+		height: 40px;
+		margin: 15px;
+		transition: transform 0.3s ease, opacity 0.3s ease;
+		cursor: pointer;}
+    
+
+.icon-img:hover {transform: scale(1.2);
+				opacity: 0.8;}
